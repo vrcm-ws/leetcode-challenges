@@ -1,0 +1,78 @@
+### --- JAVA --- ###
+# Compiled class files
+*.class
+# Log files
+*.log
+# BlueJ files
+*.ctxt
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# virtual machine crash logs
+hs_err_pid*
+# Build tools
+.gradle/
+build/
+target/
+bin/
+
+### --- C# (.NET) --- ###
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+# Visual Studio tools
+.vs/
+*.sublime-project
+*.sublime-workspace
+# NuGet Packages
+*.nupkg
+packages/
+
+### --- PYTHON --- ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# Distribution / packaging
+dist/
+local_params.py
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+.venv
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+### --- OS / IDE SPECIFIC --- ###
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+# VS Code
+.vscode/
+# IntelliJ
+.idea/
+*.iml
