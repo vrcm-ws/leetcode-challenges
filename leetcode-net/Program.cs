@@ -9,9 +9,23 @@ namespace leetcode_net
         {
             Solution solution = new Solution();
 
-            int[] nums = { 1, 2, 1 };
+            int[] outputArray;
+            int output;
 
-            Console.WriteLine(String.Join(" ", solution.GetConcatenation(nums)));
+            int[] nums = { 1, 1, 0, 1, 1, 1 };
+            int n = 3;
+
+            //A1 - Q1
+            //outputArray = solution.GetConcatenation(nums);
+
+            //A1 - Q2
+            //outputArray = solution.Shuffle(nums, n);
+
+            //A1 - Q3
+            output = solution.FindMaxConsecutiveOnes(nums);
+
+            //Console.WriteLine(string.Join(" ", outputArray));
+            Console.WriteLine(output.ToString());
         }
     }
 }
