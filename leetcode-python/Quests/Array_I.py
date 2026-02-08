@@ -11,6 +11,7 @@ class Solution:
 
         return output
 
+
     #Array I : Q2. Shuffle the Array
     def shuffle(self, nums: list[int], n: int) -> list[int]:
         output: list[int] = [0] * n * 2
@@ -20,6 +21,7 @@ class Solution:
             output[i * 2 + 1] = nums[i + n]
 
         return output
+
 
     #Array I : Q3. Max Consecutive Ones
     def findMaxConsecutiveOnes(self, nums: list[int]) -> int:

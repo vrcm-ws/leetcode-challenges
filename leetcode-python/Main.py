@@ -1,8 +1,10 @@
-from Quests.Array_I import Solution
+from Quests.Array_II import Solution
 
 solution:Solution = Solution()
 
-nums:list[int] = [2, 5, 1, 3, 4, 7]
-output:list[int] = solution.getConcatenation(nums)
+nums:list[int] = [1,1]
+output:list[int] = solution.findDisappearedNumbers(nums)
 
 print(output)
+
+
