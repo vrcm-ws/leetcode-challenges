@@ -1,7 +1,6 @@
 package quest;
-import java.util.Arrays;
 
-public class Solution
+public class ArrayI
 {
     // Array I : Q1. Concatenation of Array
     public int[] getConcatenation(int[] nums)
