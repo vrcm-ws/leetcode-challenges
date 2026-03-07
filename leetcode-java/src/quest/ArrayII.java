@@ -72,4 +72,26 @@ public class ArrayII
 
         return result;
     }
+
+    // Array II : Q3. Find All Numbers Disappeared in an Array
+    public List<Integer> findDisappearedNumbers(int[] nums) {
+
+        List<Integer> result = new ArrayList<>();
+
+        int[] frequencies = new int[nums.length + 1];
+
+        for (int number : nums) {
+            frequencies[number]++;
+        }
+
+        for (int i = 1; i < frequencies.length; i++) {
+            if (frequencies[i] != 0) {
+                continue;
+            }
+
+            result.add(i);
+        }
+
+        return result;
+    }
 }

@@ -9,12 +9,13 @@ public class Main
     {
         ArrayII solution = new ArrayII();
 
-        int[] nums = { 6,5,4,8 };
+        int[] nums = { 1,1 };
         int n = 3;
 
         //System.out.println(Arrays.toString(solution.getConcatenation(nums)));
         //System.out.println(Arrays.toString(solution.shuffle(nums, n)));
         //System.out.println(Arrays.toString(solution.findErrorNums(nums)));
-        System.out.println(Arrays.toString(solution.smallerNumbersThanCurrent(nums)));
+        //System.out.println(Arrays.toString(solution.smallerNumbersThanCurrent(nums)));
+        System.out.println(solution.findDisappearedNumbers(nums));
     }
 }
